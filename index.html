@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Engineering Portfolio</title>
+    <title>Ricky — Engineering Portfolio</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -14,28 +15,109 @@
             color: #333;
             background-color: #fafafa;
         }
-        h1 { color: #111; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        .project-card {
+
+        h1 {
+            color: #111;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #111;
+            margin-top: 50px;
+            font-size: 1.4em;
+        }
+
+        .intro {
+            color: #555;
+        }
+
+        .card {
             background: white;
-            padding: 20px;
+            padding: 24px;
             margin: 20px 0;
             border-radius: 6px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
             border: 1px solid #eee;
+        }
+
+        .card h3 {
+            margin: 0 0 4px 0;
+            color: #111;
+        }
+
+        .card .meta {
+            color: #777;
+            font-size: 0.9em;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            margin: 0 0 12px 0;
+        }
+
+        .card ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .card li {
+            margin-bottom: 6px;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #333;
+            margin-right: 16px;
         }
     </style>
 </head>
+
 <body>
 
-    <h1>Welcome to My Engineering Portfolio</h1>
-    <p>Hi, I'm Ricky. I'm building out this space to showcase my engineering projects, simulations, and technical work. Stay tuned!</p>
+    <h1>Ricky</h1>
+    <p class="intro">Hi, I'm Ricky. I'm building out this space to showcase my engineering research, projects, and
+        technical work.</p>
 
-    <h2>Featured Projects</h2>
-    
-    <div class="project-card">
-        <h3>Project 1: Coming Soon</h3>
-        <p>A brief description of what you're working on will go here.</p>
+    <h2>Research Experience</h2>
+
+    <div class="card">
+        <h3>High School Research Internship — Columbia WiMNeT Lab <a href="https://wimnet.ee.columbia.edu"
+                target="_blank">Columbia WiMNeT Lab</a></h3>
+        <div class="meta">Summer 2025 – Present</div>
+        <p>WiMNeT (Wireless and Mobile Networking Lab) researches next-generation wireless systems, including 6G
+            integrated sensing and communication (ISAC).</p>
+        <ul>
+            <li>Conducted 6G ISAC research using a 140 GHz channel sounder</li>
+            <li>Collected channel measurement data in the FCC-approved Innovation Zone surrounding Columbia University
+            </li>
+            <li>Wrote data analysis scripts in collaboration with Nokia Bell Labs</li>
+        </ul>
     </div>
 
+    <div class="card">
+        <h3>Low-Complexity Environmental Sensing via Angular mmWave Backscatter</h3>
+        <div class="meta">Independent Research Project</div>
+        <ul>
+            <li>Developed a low-complexity environmental sensing method using angular mmWave backscatter signatures and
+                statistical analysis</li>
+            <li>Presented findings at the Terra STEM Fair and academic symposiums</li>
+        </ul>
+    </div>
+
+    <footer>
+        <a href="mailto:clricky17@gmail.com">Email</a>
+        <a href="https://github.com/R1ckyC4" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/ricky-chen-045b07328/" target="_blank">LinkedIn</a>
+    </footer>
+
 </body>
+
 </html>
